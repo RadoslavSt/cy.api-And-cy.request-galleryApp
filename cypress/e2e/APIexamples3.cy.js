@@ -48,6 +48,7 @@ describe("API examples 3", () => {
             headers:{authorization:"Bearer " + token3}
 
           }).then((responsMygallery)=>{
+            // console.log(responsMygallery)
             cy.log('Posle brisanja broj mojih galerija je: ' + responsMygallery.body.count)
           })
 

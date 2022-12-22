@@ -8,7 +8,7 @@ describe('API examples2', ()=>{
 
     it("Get all my galleries and changed data to the last one", () => {
         const changedData = {
-          title: "changed Title with Api",
+          "title": "changed Title with Api 2",
           description: "changed description by api",
           images: [
             "https://media.istockphoto.com/id/1191223442/photo/lilac-breasted-roller-in-kenya-africa.jpg?b=1&s=170667a&w=0&k=20&c=Nkdvv7lEvTpLa4QZcUQC9krKVxfnfOa89QuNd4FqaNk=",
